@@ -48,3 +48,7 @@ book_words %>%
   geom_histogram(show.legend = FALSE) +
   xlim(NA, 0.0009) +
   facet_wrap(~title, ncol = 2, scales = "free")
+
+#Zipf's Law - the most common word in a language tends to be 2x as common 
+#as the 2nd most common and 3x as common as the 3rd common word
+
